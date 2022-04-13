@@ -7,20 +7,12 @@
 
 int main(void)
 {
-	char acharacter;
-	int ainteger;
-	long along;
-	long long alonglong;
-	float afloat;
 
-	int boardAux[length][length];
-	memset(boardAux, 0, sizeof(boardAux) );
-
-	printf("Size of a char; %p byte(s)\n", sizeof(acharacter));
-	printf("Size of an int; %p byte(s)\n", sizeof(ainteger));
-	printf("Size of a lon int; %p byte(s)\n", sizeof(along));
-	printf("Size of a long long int; %p byte(s)\n", sizeof(alonlong));
-	printf("Size of a float; %p byte(s)\n", sizeof(afloat));
+	printf("Size of a char: %i byte(s)\n", sizeof(char));
+	printf("Size of an int: %i byte(s)\n", sizeof(int));
+	printf("Size of a lon int: %i byte(s)\n", sizeof(long int));
+	printf("Size of a long long int: %i byte(s)\n", sizeof(long long int));
+	printf("Size of a float: %i byte(s)\n", sizeof(float));
 	return  (0);
 
 }
