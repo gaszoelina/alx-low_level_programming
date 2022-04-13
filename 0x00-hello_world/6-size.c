@@ -13,6 +13,9 @@ int main(void)
 	long long alonglong;
 	float afloat;
 
+	int boardAux[length][length];
+	memset(boardAux, 0, sizeof(boardAux) );
+
 	printf("Size of a char; %p byte(s)\n", sizeof(acharacter));
 	printf("Size of an int; %p byte(s)\n", sizeof(ainteger));
 	printf("Size of a lon int; %p byte(s)\n", sizeof(along));
