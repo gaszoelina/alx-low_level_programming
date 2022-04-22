@@ -1,9 +1,10 @@
 #include  <stdlib.h>
 #include <time.h>
 #include <stdio.h>
+
 /**
  *
- * main - Entry point
+ * main - prints a text according to numbers
  *
  * Return: Always (Success)
  */
